@@ -19,3 +19,4 @@ def find_all_extra_num(list_numbers):
 list_numbers = [1.5,1, 2, 3, 4, 10, 5, 4, 3, 2, 1]
 extra_num = find_all_extra_num(list_numbers)
 print(extra_num)
+## find lonely numbers in list

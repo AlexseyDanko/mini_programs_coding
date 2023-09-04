@@ -1,6 +1,7 @@
 import sounddevice
 from scipy.io.wavfile import write
 
+
 def voice_recorder(seconds, file):
     print("Recording Started…")
     recording = sounddevice.rec((seconds * 44100), samplerate= 44100, channels=2)
